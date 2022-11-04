@@ -33,7 +33,7 @@ import Data.Int (toNumber)
 import Data.List (List(..), singleton, (:), (..), sortBy, zipWith)
 import Data.NonEmpty ((:|))
 
-import Math (pi, asin, sqrt, sin, cos)
+import Data.Number (pi, asin, sqrt, sin, cos)
 
 import Graphics.Drawing as TwoD
 import Color (Color, lighten)

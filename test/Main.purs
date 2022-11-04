@@ -8,12 +8,13 @@ import Data.Int (toNumber)
 
 import Color (Color, darken, hsl)
 import Color.Scheme.MaterialDesign (blue, red, purple, pink, yellow, grey)
+-- import Fahrtwind.Style.Color.Tailwind (blue, red, purple, pink, yellow, grey)
 import Graphics.Isometric (Point, cube, filled, rotateZ, scale, renderScene,
                            prism, translateX, translateY, cone)
 import Graphics.Isometric.Point as P
 import Graphics.Isometric.DepthSort (depthSort)
 
-import Math (sin, cos, pi)
+import Data.Number (sin, cos, pi)
 
 import Signal.DOM (animationFrame)
 

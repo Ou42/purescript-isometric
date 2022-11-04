@@ -20,7 +20,7 @@ module Graphics.Isometric.Point
 
 import Prelude
 
-import Math (sin, cos, sqrt)
+import Data.Number (sin, cos, sqrt)
 
 import Graphics.Isometric.Types (Point, Angle, Vector)
 import Graphics.Drawing as TwoD

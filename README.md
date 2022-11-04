@@ -13,8 +13,16 @@ An isometric drawing library for PureScript.
 ![](preview.png)
 
 ## Build tests
+
+~~bower install~~
+~~pulp build -O -m Test.Main -I test -t html/main.js~~
+
 ```
-bower install
-pulp build -O -m Test.Main -I test -t html/main.js
+$ spago build
+$ spago bundle-app -m Test.Main -t html/main.js --path test/**/*.purs
+```
+if `[error] Failed to find esbuild...` then:
+```
+$ npm i -g esbuild
 ```
 Then, open `html/index.html` in a browser.
